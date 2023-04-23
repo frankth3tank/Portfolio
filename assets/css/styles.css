@@ -120,6 +120,21 @@ nav ul li {
     padding: 0.3rem 0;
 }
 
+.work-experience {
+    background-color: var(--bg-color);
+    padding: 1rem 6rem;
+}
+
+.work-experience h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+}
+
+.work-experience p {
+    line-height: var(--line-height);
+    padding: 0.4rem;
+}
+
 /* Changes reflects on screen with a width of 720px and below */
 @media screen and (max-width: 720px) {
     nav {
@@ -166,6 +181,20 @@ nav ul li {
         margin-top: -7rem;
         width: 20.5rem;
     }
+
+    .work-experience {
+        margin-top: 2rem;
+        padding: 1rem 3.5rem;
+    }
+
+    .work-experience h2 {
+        text-align: center;
+    }
+
+    .work-experience p {
+        text-align: justify;
+    }
+
 }
 
 /* Changes reflects on screen with a width of 420px and below */
