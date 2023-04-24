@@ -231,6 +231,18 @@ footer {
     height: 2rem;
 }
 
+.scroll-up {
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+}
+
+.up-arrow {
+    width: 3rem;
+    height: 3rem;
+}
+
 /* Changes reflects on screen with a width of 720px and below */
 @media screen and (max-width: 720px) {
     nav {
