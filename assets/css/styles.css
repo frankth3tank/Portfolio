@@ -218,6 +218,19 @@ footer {
     margin: 2rem 0 0;
 }
 
+.socials {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+}
+
+.socicon {
+    width: 2rem;
+    height: 2rem;
+}
+
 /* Changes reflects on screen with a width of 720px and below */
 @media screen and (max-width: 720px) {
     nav {
