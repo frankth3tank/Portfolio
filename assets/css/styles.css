@@ -120,21 +120,6 @@ nav ul li {
     padding: 0.3rem 0;
 }
 
-.work-experience {
-    background-color: var(--bg-color);
-    padding: 1rem 6rem;
-}
-
-.work-experience h2 {
-    margin-bottom: var(--bottom-margin);
-    text-align: center;
-}
-
-.work-experience p {
-    line-height: var(--line-height);
-    padding: 0.4rem;
-}
-
 .skills {
     max-width: 68.75rem;
     margin: auto;
@@ -248,20 +233,6 @@ footer {
     margin-left: 15px;
 }
 
-.jobs {
-    margin: auto;
-    width: 25%;
-    padding: 10px;
-}
-
-.job {
-    margin-top: var(--top-margin);
-    text-align: center;
-}
-
-.job-description {
-    margin-top: var(--top-margin);
-}
 
 
 /* Changes reflects on screen with a width of 720px and below */
@@ -309,19 +280,6 @@ footer {
     .bio {
         margin-top: -7rem;
         width: 20.5rem;
-    }
-
-    .work-experience {
-        margin-top: 2rem;
-        padding: 1rem 3.5rem;
-    }
-
-    .work-experience h2 {
-        text-align: center;
-    }
-
-    .work-experience p {
-        text-align: justify;
     }
 
     .icon {
